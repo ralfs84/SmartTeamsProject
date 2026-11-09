@@ -2,7 +2,7 @@ myList1 = ["lest", "bean", "Dave", "bird","test","cave","been"]
 myList = [
 "aard", "aahs", "aals", "abas", "abbe", "abby", "abet", "able", "ably", "abut", "abye", "abys",
 "aced", "aces", "ache", "achy", "acid", "acme", "acne", "acre", "acta", "acts", "adds", "adit",
-"adze", "aeon", "afar", "afro", "agar", "aged", "ager", "ages", "agha", "agin", "agio", "agle",
+"adze", "aeon", "afar", "afro", "agar", "aged", "ager", "ages", "agha", "agin", "agio",
 "agog", "agon", "ague", "ahem", "ahoy", "aide", "aids", "ails", "aims", "airs", "airy", "ajar",
 "akin", "alae", "alan", "alar", "alas", "ales", "alga", "ally", "alma", "alms", "aloe", "alow",
 "also", "alto", "alum", "amah", "amas", "ambo", "amen", "amid", "amie", "amin", "amir", "amis",
@@ -35,7 +35,7 @@ myList = [
 "byrl", "byte"
 
 "cabs", "caca", "cade", "cadi", "cads", "cafe", "caff", "cage", "cagy", "cahs", "cair", "cake",
-"caky", "calf", "calk", "call", "calm", "calo", "calp", "calx", "came", "cami", "camo", "camp",
+"caky", "calf", "calk", "call", "calm", "calo", "calx", "came", "cami", "camo", "camp",
 "cams", "cane", "cans", "cant", "cany", "cape", "caph", "capi", "capo", "caps", "carb", "card",
 "care", "cark", "carl", "carn", "carp", "carr", "cars", "cart", "casa", "case", "cash", "cask",
 "cast", "cate", "cats", "caul", "cave", "cavy", "caws", "cays", "ceca", "cede", "cedi", "cees",
@@ -73,7 +73,7 @@ myList = [
 "dork", "dorm", "dorp", "dorr", "dors", "dory", "dose", "dosh", "doss", "dost", "dote", "doth",
 "dots", "doty", "douc", "dour", "doux", "dove", "down", "dows", "doxy", "doze", "dozy", "drab",
 "drag", "dram", "drat", "draw", "dray", "dree", "dreg", "drek", "drew", "drib", "drip", "drop",
-"drug", "drum", "drys", "duad", "dual", "dubs", "duce", "duci", "duck", "duct", "dude", "duds",
+"drug", "drum", "drys", "duad", "dual", "dubs", "duce", "duck", "duct", "dude", "duds",
 "duel", "dues", "duet", "duff", "dugs", "duit", "duke", "dull", "duly", "duma", "dumb", "dump",
 "dune", "dung", "dunk", "duns", "dunt", "duos", "dupe", "dups", "dura", "dure", "durn", "duro",
 "durr", "dusk", "dust", "duty", "duve", "dwam", "dyad", "dyed", "dyer", "dyes", "dyke", "dyne"
@@ -133,8 +133,8 @@ myList = [
 "heir", "held", "hell", "helm", "help", "heme", "hemp", "hems", "hens", "herb", "herd", "here",
 "hero", "hers", "hest", "heth", "hewn", "hews", "hick", "hide", "hied", "hies", "high", "hike",
 "hila", "hili", "hill", "hilt", "hind", "hint", "hips", "hire", "hisn", "hiss", "hist", "hits",
-"hive", "hiya", "hoar", "hoax", "hobo", "hobs", "hock", "hods", "hoed", "hoer", "hoes", "hogg",
-"hogt", "hogs", "hoke", "hold", "hole", "holk", "holp", "holt", "holy", "home", "homy", "hone",
+"hive", "hiya", "hoar", "hoax", "hobo", "hobs", "hock", "hods", "hoed", "hoer", "hoes",
+"hogs", "hoke", "hold", "hole", "holk", "holp", "holt", "holy", "home", "homy", "hone",
 "hong", "honk", "hons", "hood", "hoof", "hook", "hoop", "hoot", "hope", "hops", "hora", "horn",
 "hors", "hose", "host", "hour", "hove", "howe", "howf", "howk", "howl", "hows", "hoys", "hubs",
 "huck", "hued", "hues", "huff", "huge", "hugs", "huic", "hula", "hulk", "hull", "hums", "hung",
@@ -153,8 +153,8 @@ myList = [
 "jeux", "jews", "jiao", "jibb", "jibe", "jibs", "jiff", "jigs", "jill", "jilt", "jimp", "jink",
 "jinn", "jins", "jism", "jive", "jivy", "jobs", "jock", "joes", "joey", "jogs", "john", "join",
 "joke", "joky", "jole", "joll", "jolt", "josh", "joss", "jota", "jots", "jowl", "jows", "joys",
-"juba", "jube", "judo", "judy", "juga", "jugs", "juju", "juke", "juku", "july", "jump", "junc",
-"junk", "juno", "jure", "jury", "just", "jute"
+"juba", "jube", "judo", "judy", "juga", "jugs", "juju", "juke", "juku", "july", "jump","junk",
+"juno", "jure", "jury", "just", "jute"
 
 "kaas", "kabs", "kadi", "kaes", "kafs", "kago", "kagu", "kaka", "kaki", "kale", "kame", "kami",
 "kane", "kang", "kans", "kaon", "kapa", "kaph", "karo", "kart", "kata", "kats", "kava", "kayo",
@@ -227,7 +227,7 @@ myList = [
 "opts", "opus", "orad", "oral", "orbs", "orby", "orca", "orcs", "ordo", "ores", "orgy", "orle",
 "orra", "orts", "oryx", "orzo", "osar", "oses", "otic", "otto", "ouch", "ours", "oust", "outs",
 "ouzo", "oval", "oven", "over", "ovum", "owed", "ower", "owes", "owls", "owns", "owre", "owse",
-"oxen", "oxer", "oxes", "oxid", "oxim", "oyer", "oyes", "oyez"
+"oxen", "oxer", "oxes", "oxid", "oyer", "oyes", "oyez"
 
 "paca", "pace", "pack", "pacs", "pact", "pacy", "pads", "page", "paid", "pail", "pain", "pair",
 "pale", "pall", "palm", "palp", "pals", "paly", "pams", "pand", "pane", "pang", "pans", "pant",
@@ -251,7 +251,7 @@ myList = [
 "pros", "prow", "psis", "psst", "ptui", "pubs", "puce", "puck", "puds", "pudu", "puds", "puff",
 "pugs", "puja", "puke", "puku", "pula", "pule", "puli", "pull", "pulp", "puls", "puly", "puma",
 "pump", "puna", "pung", "punk", "puns", "punt", "puny", "pupa", "pups", "pure", "puri", "purl",
-"purr", "purs", "push", "puss", "puts", "putt", "putz", "puys", "pyas", "pyat", "pyes", "pyic",
+"purr", "purs", "push", "puss", "puts", "putt", "putz", "puys", "pyas", "pyat", "pyes",
 "pyin", "pyne", "pyre", "pyro"
 
 "qadi", "qats", "qoph", "quad", "quag", " quai", "quay", "quep", "quid", "quin", "quip", "quit",
@@ -282,7 +282,7 @@ myList = [
 "sees", "sego", "seif", "seis", "self", "sell", "sels", "seme", "semi", "send", "sene", "sent",
 "sept", "sera", "sere", "serf", "serk", "sers", "sesh", "sets", "sett", "sewn", "sews", "sexy",
 "shad", "shag", "shah", "sham", "shan", "shat", "shaw", "shay", "shea", "shed", "shew", "shim",
-"shin", "ship", "shiv", "shmo", "shod", "shoe", "shog", "shoo", "shop", "shot", "show", "shul",
+"shin", "ship", "shiv", "shod", "shoe", "shog", "shoo", "shop", "shot", "show", "shul",
 "shun", "shut", "shwa", "sial", "sibb", "sibs", "sice", "sick", "sics", "side", "sift", "sigh",
 "sign", "sika", "sike", "sild", "silk", "sill", "silo", "silt", "sima", "sims", "sine", "sing",
 "sink", "sins", "sipe", "sips", "sire", "sirs", "site", "sith", "sits", "size", "sizy", "skag",
@@ -302,7 +302,7 @@ myList = [
 "sues", "suet", "sugs", "suit", "sukh", "suks", "sulk", "sulu", "sumi", "sumo", "sump", "sums",
 "sung", "sunk", "suns", "supe", "sups", "sure", "surf", "suss", "swab", "swag", "swam", "swan",
 "swap", "swat", "sway", "swig", "swim", "swiz", "swob", "swop", "swot", "swum", "sybo", "syce",
-"syed", "syes", "syke", "sylv", "sync", "syne", "sype", "syph", "syrt"
+"syed", "syes", "syke", "sync", "syne", "sype", "syph", "syrt"
 
 "tabs", "tabu", "tace", "tack", "taco", "tact", "tads", "tael", "tags", "tahr", "tail", "tain",
 "take", "tala", "talc", "tale", "tali", "talk", "tall", "tame", "tamp", "tams", "tana", "tang",
@@ -338,7 +338,7 @@ myList = [
 "very", "vest", "veto", "vets", "vext", "viae", "vial", "vibe", "vice", "vide", "vids", "vied",
 "vier", "vies", "view", "viga", "vigs", "vila", "vile", "vill", "vims", "vina", "vine", "vino",
 "vins", "viny", "viol", "visa", "vise", "vita", "viva", "vive", "vivo", "vizy", "vlei", "voes",
-"void", "vole", "vols", "volt", "vote", "vows", "vril", "vugs", "vuln", "vums"
+"void", "vole", "vols", "volt", "vote", "vows", "vril", "vugs", "vums"
 
 "wabs", "wack", "wade", "wadi", "wads", "waes", "waff", "waft", "wage", "wags", "waif", "wail",
 "wain", "wair", "wait", "wake", "wale", "walk", "wall", "waly", "wame", "wand", "wane", "wank",
@@ -359,7 +359,7 @@ myList = [
 "yack", "yaff", "yagi", "yags", "yald", "yale", "yams", "yang", "yank", "yaps", "yard", "yare",
 "yark", "yarm", "yarn", "yarr", "yate", "yaup", "yawl", "yawn", "yaws", "yays", "yeah", "yean",
 "year", "yeas", "yech", "yegg", "yeld", "yelk", "yell", "yelm", "yelp", "yens", "yeps", "yerk",
-"yeti", "yeuk", "yews", "yill", "yins", "yipe", "yips", "yird", "ylem", "ympe", "yobs", "yock",
+"yeti", "yeuk", "yews", "yill", "yins", "yipe", "yips", "yird", "ylem", "yobs", "yock",
 "yoga", "yogh", "yogi", "yoke", "yoks", "yolk", "yond", "yoni", "yore", "your", "yous", "yowe",
 "yowl", "yows", "yuan", "yuca", "yuch", "yuck", "yuga", "yugs", "yuko", "yule", "yups", "yurt",
 "yutz",

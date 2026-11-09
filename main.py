@@ -6,7 +6,8 @@ count = 1
 
 answer = myList[x]
 answer = answer.lower() #converts to lower case
-wrong = []
+#wrong = []
+wrong = ""
 
 print(answer + ' is the answer')
 guess = input('enter a guess\n')
@@ -22,7 +23,9 @@ while guess != answer:# while guess is not just The Answer
             elif guess[i] not in answer and guess[i] != answer[i]:
                 #print("Position", i + 1, "is not the same\n")
                 print("position ", i +1 , " is red\n")
-                wrong = wrong + [guess[i]]      
+                if guess[i] not in wrong:
+                        wrong = wrong + guess[i] +","
+                #wrong = wrong + [guess[i]]      
         print("-------------------------------------------------------------\n")                
         """for j in range (4):
             if guess[j] in answer:
