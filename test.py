@@ -1,1 +1,0 @@
-myList = ["lest", "bean", "Dave"]
