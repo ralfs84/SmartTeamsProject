@@ -1,4 +1,4 @@
-from test import myList
+from Dictionary import myList
 import random
 
 x = random.randint(0, len(myList) - 1)
