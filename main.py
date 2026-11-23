@@ -10,8 +10,8 @@ RESET = '\033[0m'
 x = random.randint(0, len(myList) - 1)
 count = 1
 
-answer = "bull"
-#answer = myList[x]
+#answer = "bull"
+answer = myList[x]
 answer = answer.lower() #converts to lower case
 answer = answer.strip()
 #wrong = []
@@ -32,70 +32,30 @@ while guess != answer:# while guess is not just The Answer
         tanswer = answer
         tguess = guess
         for i in range (4):
+            gcount = tguess.count(guess[i])#count how many times letter is in guessed word
+            acount = tanswer.count(guess[i])#count how many times letter is in answer
             if tguess[i] == tanswer[i]: 
                 ColourPrint = ColourPrint + GREEN + guess[i] + RESET
-            
-                tanswer = tanswer[:i] + " " + tanswer[i + 1:]
+
+                tanswer = tanswer[:i] + " " + tanswer[i+1:]
                 tguess = tguess[:i] + " " + tguess[i + 1:]
-            elif tguess[i] != tanswer[i] and tguess[i] in tanswer:
+            elif tguess[i] != tanswer[i] and tguess[i] in tanswer and gcount <= acount:#compare how many times letter shows up so if 3 in guess but answer on has 2 the one letter will be skipped and made red
                 ColourPrint = ColourPrint + YELLOW + guess[i] + RESET
 
-                tanswer = tanswer[:i] + " " + tanswer[i + 1:] 
                 tguess = tguess[:i] + " " + tguess[i + 1:]
             else:
                 ColourPrint = ColourPrint + RED + guess[i] + RESET
               
-                tanswer = tanswer[:i] + " " + tanswer[i + 1:]
                 tguess = tguess[:i] + " " + tguess[i + 1:]
-                
                 if guess[i] not in wrong:
                         wrong = wrong + guess[i] +","
-               
-
-            """temp = temp + guess[i]   
-
-            if tguess[i] == tanswer[i]:
-                #print("Position", i + 1, "is the same\n")
-                ColourPrint = ColourPrint + GREEN + guess[i] + RESET
-                temp = temp + guess[i]
-                tanswer = tanswer[:i] + " " + tanswer[i + 1:]
-                tguess = tguess[:i] + " " + tguess[i + 1:]
-                #print(GREEN + guess[i] + RESET )
-                #print("position ", i +1 , " is green\n")
-            elif tguess[i] not in tanswer and tguess[i] != tanswer[i]:
-                #print("Position", i + 1, "is not the same\n")
-                ColourPrint = ColourPrint + RED + guess[i] + RESET
-                temp = temp + guess[i]
-                tanswer = tanswer[:i] + " " + tanswer[i + 1:]
-                tguess = tguess[:i] + " " + tguess[i + 1:]
-                #print("position ", i +1 , " is red\n")
-                if guess[i] not in wrong:
-                        wrong = wrong + guess[i] +","
-                #wrong = wrong + [guess[i]] 
-            else:
-                    ColourPrint = ColourPrint + YELLOW + guess[i] + RESET
-                    #tanswer = tanswer[:i] + " " + tanswer[i + 1:] 
-                    tguess = tguess[:i] + " " + tguess[i + 1:]"""
-   
         counter = counter + 1
         tanswer = answer
         tguess = guess
         if counter == 5:
-            break
+            break       
 
         print("-------------------------------------------------------------\n")                
-        """for j in range (4):
-            if guess[j] in answer:
-                print(guess[j]+" is in word\n")
-            else:
-                print(guess[j]+" is not in word\n")
-        print("-------------------------------------------------------------\n")"""              
-        """for k in range (4):
-                for l in range (4):
-                    if guess[k] == answer[l] and guess[k] != answer[k] and guess[k] != ColourPrint:
-                            print(guess[k] +" is in postion "+ str(l+1)+ "\n")
-                            print(guess[k] + " is yellow")
-                            ColourPrint = ColourPrint + YELLOW + guess[k] + RESET"""
        
         PreviousAnswers = PreviousAnswers + "\n" + ColourPrint
         print(PreviousAnswers)
@@ -109,10 +69,12 @@ while guess != answer:# while guess is not just The Answer
     elif guess not in myList:
         guess = input('Not a word\nEnter a new guess\n')
 
+if answer == guess:
+    print("Yippeeeee the word was ")
+    print(answer)
+else:
+    print("Looooooser answer was ")
+    print(answer)
 
-print(answer)
-                    #str(myList[x]).find(guess[i:i+1])
-                    #print(guess[i:i+1], "is in the word")
 
-
-    #print("win!! yay!!!")
+                   
